@@ -13,13 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var interestRateField: UITextField!
     @IBOutlet weak var loanTermField: UITextField!
     @IBOutlet weak var loanAmountField: UITextField!
-    
-    
-    
-    
-    
-    
-
     @IBOutlet weak var result: UILabel!
     @IBAction func simpleCalculateButton(_ sender: Any) {
         let calculate1=calculate()
